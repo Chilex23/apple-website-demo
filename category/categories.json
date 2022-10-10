@@ -1,0 +1,180 @@
+{
+  "category": [
+    {
+      "id": "Men",
+      "name": "Men's Clothing",
+      "products": [
+        {
+          "id": 1,
+          "name": "Brown Brim",
+          "imageUrl": "/headshot.jpg",
+          "price": 25
+        },
+        {
+          "id": 2,
+          "name": "Blue Beanie",
+          "imageUrl": "/headshot.jpg",
+          "price": 18
+        },
+        {
+          "id": 16,
+          "name": "Air Jordan Limited",
+          "imageUrl": "/headshot.jpg",
+          "price": 190
+        },
+        {
+          "id": 17,
+          "name": "Timberlands",
+          "imageUrl": "/headshot.jpg",
+          "price": 200
+        },
+        {
+          "id": 18,
+          "name": "Black Jean Shearling",
+          "imageUrl": "/headshot.jpg",
+          "price": 125
+        }
+      ]
+    },
+    {
+      "id": "Women",
+      "name": "Women's Clothing",
+      "products": [
+        {
+          "id": 1,
+          "name": "Brown Brim",
+          "imageUrl": "/headshot.jpg",
+          "price": 25
+        },
+        {
+          "id": 2,
+          "name": "Blue Beanie",
+          "imageUrl": "/headshot.jpg",
+          "price": 18
+        },
+        {
+          "id": 16,
+          "name": "Air Jordan Limited",
+          "imageUrl": "/headshot.jpg",
+          "price": 190
+        },
+        {
+          "id": 17,
+          "name": "Timberlands",
+          "imageUrl": "/headshot.jpg",
+          "price": 200
+        },
+        {
+          "id": 18,
+          "name": "Black Jean Shearling",
+          "imageUrl": "/headshot.jpg",
+          "price": 125
+        }
+      ]
+    },
+    {
+      "id": "Children",
+      "name": "Children's Clothing",
+      "products": [
+        {
+          "id": 1,
+          "name": "Brown Brim",
+          "imageUrl": "/headshot.jpg",
+          "price": 25
+        },
+        {
+          "id": 2,
+          "name": "Blue Beanie",
+          "imageUrl": "/headshot.jpg",
+          "price": 18
+        },
+        {
+          "id": 16,
+          "name": "Air Jordan Limited",
+          "imageUrl": "/headshot.jpg",
+          "price": 190
+        },
+        {
+          "id": 17,
+          "name": "Timberlands",
+          "imageUrl": "/headshot.jpg",
+          "price": 200
+        },
+        {
+          "id": 18,
+          "name": "Black Jean Shearling",
+          "imageUrl": "/headshot.jpg",
+          "price": 125
+        }
+      ]
+    },
+    {
+      "id": "Jewelry",
+      "name": "Jewelry and Accessories",
+      "products": [
+        {
+          "id": 1,
+          "name": "Brown Brim",
+          "imageUrl": "/headshot.jpg",
+          "price": 25
+        },
+        {
+          "id": 2,
+          "name": "Blue Beanie",
+          "imageUrl": "/headshot.jpg",
+          "price": 18
+        },
+        {
+          "id": 16,
+          "name": "Air Jordan Limited",
+          "imageUrl": "/headshot.jpg",
+          "price": 190
+        },
+        {
+          "id": 17,
+          "name": "Timberlands",
+          "imageUrl": "/headshot.jpg",
+          "price": 200
+        },
+        {
+          "id": 18,
+          "name": "Black Jean Shearling",
+          "imageUrl": "/headshot.jpg",
+          "price": 125
+        }
+      ]
+    }
+  ],
+  "topProducts": [
+    {
+      "id": 1,
+      "name": "Brown Brim",
+      "imageUrl": "/headshot.jpg",
+      "price": 25
+    },
+    {
+      "id": 2,
+      "name": "Blue Beanie",
+      "imageUrl": "/headshot.jpg",
+      "price": 18
+    },
+    {
+      "id": 16,
+      "name": "Air Jordan Limited",
+      "imageUrl": "/headshot.jpg",
+      "price": 190
+    },
+    {
+      "id": 17,
+      "name": "Timberlands",
+      "imageUrl": "/headshot.jpg",
+      "price": 200
+    },
+    {
+      "id": 18,
+      "name": "Black Jean Shearling",
+      "imageUrl": "/headshot.jpg",
+      "price": 125
+    }
+  ]
+}
