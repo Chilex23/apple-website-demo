@@ -34,13 +34,13 @@ export default function ProductDetails({ productData }) {
   }
   return (
     <>
-      <section className="mt-7 mx-24">
-        <div className="flex gap-x-7 mb-20">
+      <section className="mt-7 mx-8 tablet:mx-24">
+        <div className="flex flex-col sm:flex-row gap-x-7 mb-20">
           <Image priority src={productData.imageUrl} width={250} height={300} />
           <div>
             <h1 className="font-medium text-2xl">{productData.name}</h1>
             <p className="mt-3">Variation available</p>
-            <div className="flex gap-x-5">
+            <div className="flex flex-wrap gap-5">
               <span>
                 <input type="checkbox" name="size" value="EU 39" /> EU 39
               </span>
@@ -63,7 +63,7 @@ export default function ProductDetails({ productData }) {
             </div>
 
             <p className="mt-3">Colors available</p>
-            <div className="flex gap-x-5 mt-2">
+            <div className="flex flex-wrap gap-5 mt-2">
               <div>
                 <input type="checkbox" name="color" value="red" />{" "}
                 <span className="bg-red-700 text-white p-1 rounded-full ml-2">
@@ -78,7 +78,7 @@ export default function ProductDetails({ productData }) {
               </div>
               <div>
                 <input type="checkbox" name="size" value="EU 41" />
-                <span className="bg-amber-100 p-1 rounded-full ml-2">
+                <span className="border-2 border-black bg-amber-100 p-1 rounded-full ml-2">
                   Beige
                 </span>
               </div>
@@ -97,15 +97,18 @@ export default function ProductDetails({ productData }) {
             </div>
 
             <p className="my-4">Price</p>
-            <button className="py-2 px-4 bg-orange-600 text-white rounded-md">
-              Pay Normal Price - ${productData.price}
-            </button>
-            <button
-              className="ml-3 py-2 px-4 bg-orange-600 text-white rounded-md"
-              onClick={openModal}
-            >
-              Pay Discounted Price - ${getDiscount(productData.price)} (70% off)
-            </button>
+            <div className="flex">
+              <button className="py-2 px-4 bg-stone-800 text-white rounded-md">
+                Pay Normal Price - ${productData.price}
+              </button>
+              <button
+                className="ml-3 py-2 px-4 bg-stone-800 text-white rounded-md"
+                onClick={openModal}
+              >
+                Pay Discounted Price - ${getDiscount(productData.price)} (70%
+                off)
+              </button>
+            </div>
           </div>
         </div>
       </section>
@@ -139,16 +142,22 @@ export default function ProductDetails({ productData }) {
               onClick={shareOnTwitter}
             />
           </div>
+          <h3>Active Referral Links</h3>
+          <p>1ERSFGu789 - 3 refers</p>
 
           <h2 className="my-3 font-bold">2. Join a Buying group.</h2>
           <p>Available Buying groups</p>
           <div className="flex gap-x-3 mt-3 p-2 rounded-md items-center border-2 border-black w-fit">
             <p>Thrifty Buyers</p>
-            <button className="py-1 px-2 text-white bg-orange-600 rounded-md">Join</button>
+            <button className="py-1 px-2 text-white bg-orange-600 rounded-md">
+              Join
+            </button>
           </div>
           <div className="flex gap-x-3 mt-3 p-2 rounded-md items-center border-2 border-black w-fit">
             <p>Encore Spenders</p>
-            <button className="py-1 px-2 text-white bg-orange-600 rounded-md">Join</button>
+            <button className="py-1 px-2 text-white bg-orange-600 rounded-md">
+              Join
+            </button>
           </div>
         </div>
       </Modal>

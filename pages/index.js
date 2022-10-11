@@ -27,7 +27,7 @@ export default function Home({ allCategories, topProducts }) {
         <title>{siteTitle}</title>
       </Head>
       <NavBar />
-      <section className="mx-10 grid grid-cols-6 gap-x-5">
+      <section className="sm2:mx-5 mx-10 grid grid-cols-6 grid-rows-3 tablet:grid-rows-none gap-x-5">
         <SideBar categories={allCategories} />
         <Hero />
         <Ads />
