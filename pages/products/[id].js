@@ -1,18 +1,19 @@
 import Head from "next/head";
+import ProductDetails from "../../components/product-details";
 import Layout from "../../components/layout";
 import NavBar from "../../components/navbar";
-import Products from "../../components/products";
 import Footer from "../../components/footer";
-import { getAllCategoriesIds, getCategoryData } from "../../lib/categories";
+import { getProduct, getAllProductsIds } from "../../lib/products";
 
-export default function Category({ categoryData }) {
+export default function Product({ productData }) {
+  
   return (
     <Layout>
       <Head>
-        <title>{categoryData.name}</title>
+        <title>{productData.name}</title>
       </Head>
       <NavBar />
-      <Products title={categoryData.name} products={categoryData.products} /> 
+      <ProductDetails productData={productData} />
       <Footer />
     </Layout>
   );
@@ -20,7 +21,7 @@ export default function Category({ categoryData }) {
 
 export async function getStaticPaths() {
   // Return a list of possible values for id
-  const paths = getAllCategoriesIds();
+  const paths = getAllProductsIds();
   return {
     paths,
     fallback: false,
@@ -28,11 +29,11 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  // Fetch necessary data for the category using params.id
-  const categoryData = await getCategoryData(params.id);
+  // Fetch necessary data for the product using params.id
+  const productData = await getProduct(params.id);
   return {
     props: {
-      categoryData,
+      productData,
     },
   };
 }

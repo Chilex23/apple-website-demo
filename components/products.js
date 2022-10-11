@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Products({ title, products }) {
   return (
@@ -13,6 +14,9 @@ export default function Products({ title, products }) {
               <button className="py-2 px-4 bg-orange-600 text-white rounded-md mt-2">
                 Add to Cart
               </button>
+              <Link href={`/products/${id}`}>
+                <a>View Item</a>
+              </Link>
             </div>
           );
         })}
