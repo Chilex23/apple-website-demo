@@ -1,0 +1,180 @@
+{
+  "category": [
+    {
+      "id": "Men",
+      "name": "Men's Clothing",
+      "products": [
+        {
+          "id": 1,
+          "name": "Brown Brim",
+          "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+          "price": 25
+        },
+        {
+          "id": 2,
+          "name": "Blue Beanie",
+          "imageUrl": "https://i.ibb.co/ypkgK0X/blue-beanie.png",
+          "price": 18
+        },
+        {
+          "id": 3,
+          "name": "Air Jordan Limited",
+          "imageUrl": "https://i.ibb.co/w4k6Ws9/nike-funky.png",
+          "price": 190
+        },
+        {
+          "id": 4,
+          "name": "Timberlands",
+          "imageUrl": "https://i.ibb.co/Mhh6wBg/timberlands.png",
+          "price": 200
+        },
+        {
+          "id": 5,
+          "name": "Black Jean Shearling",
+          "imageUrl": "https://i.ibb.co/XzcwL5s/black-shearling.png",
+          "price": 125
+        }
+      ]
+    },
+    {
+      "id": "Women",
+      "name": "Women's Clothing",
+      "products": [
+        {
+          "id": 6,
+          "name": "Brown Brim",
+          "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+          "price": 25
+        },
+        {
+          "id": 7,
+          "name": "Blue Beanie",
+          "imageUrl": "https://i.ibb.co/ypkgK0X/blue-beanie.png",
+          "price": 18
+        },
+        {
+          "id": 8,
+          "name": "Air Jordan Limited",
+          "imageUrl": "https://i.ibb.co/w4k6Ws9/nike-funky.png",
+          "price": 190
+        },
+        {
+          "id": 9,
+          "name": "Timberlands",
+          "imageUrl": "https://i.ibb.co/XzcwL5s/black-shearling.png",
+          "price": 200
+        },
+        {
+          "id": 10,
+          "name": "Black Jean Shearling",
+          "imageUrl": "https://i.ibb.co/XzcwL5s/black-shearling.png",
+          "price": 125
+        }
+      ]
+    },
+    {
+      "id": "Children",
+      "name": "Children's Clothing",
+      "products": [
+        {
+          "id": 11,
+          "name": "Brown Brim",
+          "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+          "price": 25
+        },
+        {
+          "id": 12,
+          "name": "Blue Beanie",
+          "imageUrl": "https://i.ibb.co/ypkgK0X/blue-beanie.png",
+          "price": 18
+        },
+        {
+          "id": 13,
+          "name": "Air Jordan Limited",
+          "imageUrl": "https://i.ibb.co/w4k6Ws9/nike-funky.png",
+          "price": 190
+        },
+        {
+          "id": 14,
+          "name": "Timberlands",
+          "imageUrl": "https://i.ibb.co/Mhh6wBg/timberlands.png",
+          "price": 200
+        },
+        {
+          "id": 15,
+          "name": "Black Jean Shearling",
+          "imageUrl": "https://i.ibb.co/XzcwL5s/black-shearling.pngg",
+          "price": 125
+        }
+      ]
+    },
+    {
+      "id": "Jewelry",
+      "name": "Jewelry and Accessories",
+      "products": [
+        {
+          "id": 16,
+          "name": "Brown Brim",
+          "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+          "price": 25
+        },
+        {
+          "id": 17,
+          "name": "Blue Beanie",
+          "imageUrl": "https://i.ibb.co/ypkgK0X/blue-beanie.png",
+          "price": 18
+        },
+        {
+          "id": 18,
+          "name": "Air Jordan Limited",
+          "imageUrl": "https://i.ibb.co/w4k6Ws9/nike-funky.png",
+          "price": 190
+        },
+        {
+          "id": 19,
+          "name": "Timberlands",
+          "imageUrl": "https://i.ibb.co/Mhh6wBg/timberlands.png",
+          "price": 200
+        },
+        {
+          "id": 20,
+          "name": "Black Jean Shearling",
+          "imageUrl": "https://i.ibb.co/XzcwL5s/black-shearling.png",
+          "price": 125
+        }
+      ]
+    }
+  ],
+  "topProducts": [
+    {
+      "id": 1,
+      "name": "Brown Brim",
+      "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+      "price": 25
+    },
+    {
+      "id": 2,
+      "name": "Blue Beanie",
+      "imageUrl": "https://i.ibb.co/ypkgK0X/blue-beanie.png",
+      "price": 18
+    },
+    {
+      "id": 16,
+      "name": "Air Jordan Limited",
+      "imageUrl": "https://i.ibb.co/w4k6Ws9/nike-funky.png",
+      "price": 190
+    },
+    {
+      "id": 17,
+      "name": "Timberlands",
+      "imageUrl": "https://i.ibb.co/Mhh6wBg/timberlands.png",
+      "price": 200
+    },
+    {
+      "id": 18,
+      "name": "Black Jean Shearling",
+      "imageUrl": "https://i.ibb.co/XzcwL5s/black-shearling.png",
+      "price": 125
+    }
+  ]
+}
